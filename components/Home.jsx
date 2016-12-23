@@ -24,8 +24,8 @@ function Home() {
         instructions on how to use this boilerplate
         to deploy your own single page app using GitHub Pages.
       </p>
-      <div><Link to="/vogtn/example">Example page</Link></div>
-      <div><Link to="/vogtn/example/two-deep?field1=foo&field2=bar#boom!">
+      <div><Link to="/web/example">Example page</Link></div>
+      <div><Link to="/web/example/two-deep?field1=foo&field2=bar#boom!">
         Example two deep with query and hash
       </Link></div>
     </div>

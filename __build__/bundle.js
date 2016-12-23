@@ -28785,7 +28785,7 @@
 	      null,
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/vogtn/example' },
+	        { to: '/web/example' },
 	        'Example page'
 	      )
 	    ),
@@ -28794,7 +28794,7 @@
 	      null,
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/vogtn/example/two-deep?field1=foo&field2=bar#boom!' },
+	        { to: '/web/example/two-deep?field1=foo&field2=bar#boom!' },
 	        'Example two deep with query and hash'
 	      )
 	    )
