@@ -28654,6 +28654,10 @@
 	
 	
 	  var githubLink = 'https://github.com/vogtn';
+	  var twitterLink = 'https://twitter.com/NicVogt';
+	  var codepenLink = 'http://codepen.io/vogtn/';
+	  var mediumLink = 'https://medium.com/@nicolasjvogt';
+	  var linkedLink = 'https://www.linkedin.com/in/vogtn';
 	
 	  return _react2.default.createElement(
 	    'div',
@@ -28665,7 +28669,32 @@
 	    ),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'github',
-	      size: '2x',
+	      size: '4x',
+	      link: githubLink,
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	    }),
+	    _react2.default.createElement(FontAwesome, {
+	      name: 'twitter',
+	      size: '4x',
+	      link: twitterLink,
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	    }),
+	    _react2.default.createElement(FontAwesome, {
+	      name: 'codepen',
+	      size: '4x',
+	      link: codepenLink,
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	    }),
+	    _react2.default.createElement(FontAwesome, {
+	      name: 'medium',
+	      size: '4x',
+	      link: mediumLink,
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	    }),
+	    _react2.default.createElement(FontAwesome, {
+	      name: 'linkedin-square',
+	      size: '4x',
+	      link: linkedLink,
 	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	    }),
 	    children,
