@@ -28651,7 +28651,7 @@
 	      routes = _ref.routes;
 	
 	  function generateMapMenu() {
-	    var path = 'vogtn.github.io/web/';
+	    var path = '';
 	
 	    function nextPath(route) {
 	      path += (path.slice(-1) === '/' ? '' : '/') + (route.path === '/' ? '' : route.path);
