@@ -28808,15 +28808,6 @@
 	      'p',
 	      null,
 	      'This is an example page. Refresh the page or copy/paste the url to test out the redirect functionality (this same page should load after the redirect).'
-	    ),
-	    children || _react2.default.createElement(
-	      'div',
-	      null,
-	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/web/example/two-deep?field1=foo&field2=bar#boom!' },
-	        'Example two deep with query and hash'
-	      )
 	    )
 	  );
 	}
