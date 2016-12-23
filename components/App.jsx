@@ -8,12 +8,12 @@ const propTypes = {
 
 function App({ children, routes }) {
 
-  const repoLink = 'https://github.com/vogtn/web';
+  const githubLink = 'https://github.com/vogtn'
 
   return (
     <div>
       <h1>Nicolas Vogt - Web Developer</h1>
-      <a href={repoLink}>https://github.com/vogtn/web</a>
+      <a href={githubLink}><i class="fa github fa-2x"></i></a>
       {children}
       <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
       </div>

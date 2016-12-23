@@ -28651,7 +28651,7 @@
 	      routes = _ref.routes;
 	
 	
-	  var repoLink = 'https://github.com/vogtn/web';
+	  var githubLink = 'https://github.com/vogtn';
 	
 	  return _react2.default.createElement(
 	    'div',
@@ -28663,8 +28663,8 @@
 	    ),
 	    _react2.default.createElement(
 	      'a',
-	      { href: repoLink },
-	      'https://github.com/vogtn/web'
+	      { href: githubLink },
+	      _react2.default.createElement('i', { 'class': 'fa github fa-2x' })
 	    ),
 	    children,
 	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } })
