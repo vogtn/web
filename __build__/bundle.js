@@ -28695,11 +28695,7 @@
 	      generateMapMenu()
 	    ),
 	    children,
-	    _react2.default.createElement(
-	      'div',
-	      { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } },
-	      _react2.default.createElement('a', { href: 'http://www.rafaelpedicini.com', className: 'extended-link' })
-	    )
+	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } })
 	  );
 	}
 	
@@ -28887,7 +28883,7 @@
 	      null,
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/example/two-deep?field1=foo&field2=bar#boom!' },
+	        { to: '/web/example/two-deep?field1=foo&field2=bar#boom!' },
 	        'Example two deep with query and hash'
 	      )
 	    )
@@ -28955,7 +28951,7 @@
 	      null,
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/example/two-deep' + queryString + hashFragment },
+	        { to: '/web/example/two-deep' + queryString + hashFragment },
 	        linkText
 	      )
 	    );
