@@ -28674,7 +28674,7 @@
 	    });
 	  }
 	
-	  var repoLink = 'https://github.com/rafrex/spa-github-pages';
+	  var repoLink = 'https://github.com/vogtn/web';
 	
 	  return _react2.default.createElement(
 	    'div',
@@ -28682,12 +28682,12 @@
 	    _react2.default.createElement(
 	      'h1',
 	      null,
-	      'Single Page Apps for GitHub Pages'
+	      'Nicolas Vogt'
 	    ),
 	    _react2.default.createElement(
 	      'a',
 	      { href: repoLink },
-	      'https://github.com/rafrex/spa-github-pages'
+	      'https://github.com/vogtn/web'
 	    ),
 	    _react2.default.createElement(
 	      'nav',
@@ -28698,16 +28698,7 @@
 	    _react2.default.createElement(
 	      'div',
 	      { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } },
-	      _react2.default.createElement(
-	        'a',
-	        { href: 'http://www.rafaelpedicini.com', className: 'extended-link' },
-	        'Code and concept by ',
-	        _react2.default.createElement(
-	          'span',
-	          { className: 'link-style' },
-	          'Rafael Pedicini'
-	        )
-	      )
+	      _react2.default.createElement('a', { href: 'http://www.rafaelpedicini.com', className: 'extended-link' })
 	    )
 	  );
 	}
@@ -28794,7 +28785,7 @@
 	      null,
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/example' },
+	        { to: '/vogtn/example' },
 	        'Example page'
 	      )
 	    ),
@@ -28803,7 +28794,7 @@
 	      null,
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/example/two-deep?field1=foo&field2=bar#boom!' },
+	        { to: '/vogtn/example/two-deep?field1=foo&field2=bar#boom!' },
 	        'Example two deep with query and hash'
 	      )
 	    )
