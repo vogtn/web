@@ -11,7 +11,7 @@ import ExampleTwoDeepComponent from './components/ExampleTwoDeepComponent';
 
 
 const routes = (
-  <Route path="/" mapMenuTitle="Home" component={App}>
+  <Route path="/web/" mapMenuTitle="Home" component={App}>
     <IndexRoute component={Home} />
 
     <Route path="/web/example" mapMenuTitle="Example" component={ExampleComponent}>
