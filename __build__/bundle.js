@@ -28650,29 +28650,6 @@
 	  var children = _ref.children,
 	      routes = _ref.routes;
 	
-	  function generateMapMenu() {
-	    var path = '';
-	
-	    function nextPath(route) {
-	      path += (path.slice(-1) === '/' ? '' : '/') + (route.path === '/' ? '' : route.path);
-	      return path;
-	    }
-	
-	    return routes.filter(function (route) {
-	      return route.mapMenuTitle;
-	    }).map(function (route, index, array) {
-	      return _react2.default.createElement(
-	        'span',
-	        { key: index },
-	        _react2.default.createElement(
-	          _reactRouter.Link,
-	          { to: nextPath(route) },
-	          route.mapMenuTitle
-	        ),
-	        index + 1 < array.length && ' / '
-	      );
-	    });
-	  }
 	
 	  var repoLink = 'https://github.com/vogtn/web';
 	
@@ -28688,11 +28665,6 @@
 	      'a',
 	      { href: repoLink },
 	      'https://github.com/vogtn/web'
-	    ),
-	    _react2.default.createElement(
-	      'nav',
-	      null,
-	      generateMapMenu()
 	    ),
 	    children,
 	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } })
