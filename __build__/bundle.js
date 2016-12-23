@@ -28659,7 +28659,7 @@
 	    _react2.default.createElement(
 	      'h1',
 	      null,
-	      'Nicolas Vogt'
+	      'Nicolas Vogt - Web Developer'
 	    ),
 	    _react2.default.createElement(
 	      'a',
@@ -28713,38 +28713,6 @@
 	        { to: '/web/example' },
 	        'Example page'
 	      )
-	    ),
-	    _react2.default.createElement(
-	      'p',
-	      null,
-	      'This is an example single page app built with ',
-	      _react2.default.createElement(
-	        'a',
-	        { href: reactLink },
-	        'React'
-	      ),
-	      ' and ',
-	      ' ',
-	      _react2.default.createElement(
-	        'a',
-	        { href: reactRouterLink },
-	        'React\xA0Router'
-	      ),
-	      ' using ',
-	      ' ',
-	      _react2.default.createElement(
-	        'code',
-	        null,
-	        'browserHistory'
-	      ),
-	      '. Navigate with the links below and refresh the page or copy/paste the url to test out the redirect functionality deployed to overcome ',
-	      ' ',
-	      _react2.default.createElement(
-	        'a',
-	        { href: ghPagesLink },
-	        'GitHub\xA0Pages'
-	      ),
-	      ' incompatibility with single page apps (like this one).'
 	    ),
 	    _react2.default.createElement(
 	      'p',
