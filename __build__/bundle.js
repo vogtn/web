@@ -28662,7 +28662,7 @@
 	  function togithubLink() {
 	    window.open(githubLink);
 	  }
-	  function togithubLink() {
+	  function totwitterLink() {
 	    window.open(twitterLink);
 	  }
 	  function tocodepenLink() {
