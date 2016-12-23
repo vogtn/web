@@ -8,7 +8,7 @@ const propTypes = {
 
 function App({ children, routes }) {
   function generateMapMenu() {
-    let path = 'vogtn.github.io/web/';
+    let path = '';
 
     function nextPath(route) {
       path += (
