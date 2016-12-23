@@ -28670,31 +28670,31 @@
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'github',
 	      size: '4x',
-	      link: githubLink,
+	      onClick: githubLink,
 	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	    }),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'twitter',
 	      size: '4x',
-	      link: twitterLink,
+	      onClick: twitterLink,
 	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	    }),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'codepen',
 	      size: '4x',
-	      link: codepenLink,
+	      onClick: codepenLink,
 	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	    }),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'medium',
 	      size: '4x',
-	      link: mediumLink,
+	      onClick: mediumLink,
 	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	    }),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'linkedin-square',
 	      size: '4x',
-	      link: linkedLink,
+	      onClick: linkedLink,
 	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	    }),
 	    children,
