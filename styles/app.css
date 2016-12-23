@@ -131,6 +131,7 @@ li:before {
 h1 {
   font-size: 20px;
   margin-bottom: 0.5vh;
+  font-family: 'Abel', sans-serif;
 }
 
 /*repo link*/
