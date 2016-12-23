@@ -15,7 +15,21 @@ function App({ children, routes }) {
   const mediumLink = 'https://medium.com/@nicolasjvogt';
   const linkedLink = 'https://www.linkedin.com/in/vogtn';
 
-
+  function togithubLink() {
+    window.open(githubLink)
+  }
+  function togithubLink() {
+    window.open(twitterLink)
+  }
+  function tocodepenLink() {
+    window.open(codepenLink)
+  }
+  function tomediumLink() {
+    window.open(mediumLink)
+  }
+  function tolinkedLink() {
+    window.open(linkedLink)
+  }
 
   return (
     <div>
@@ -23,32 +37,37 @@ function App({ children, routes }) {
         <FontAwesome
           name='github'
           size='4x'
-          onClick={githubLink}
+          onClick={togithubLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+          className="icons"
         />
         <FontAwesome
           name='twitter'
           size='4x'
-          onClick={twitterLink}
+          onClick={totwitterLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+          className="icons"
         />
         <FontAwesome
           name='codepen'
           size='4x'
-          onClick={codepenLink}
+          onClick={tocodepenLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+          className="icons"
         />
         <FontAwesome
           name='medium'
           size='4x'
-          onClick={mediumLink}
+          onClick={tomediumLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+          className="icons"
         />
         <FontAwesome
           name='linkedin-square'
           size='4x'
-          onClick={linkedLink}
+          onClick={tolinkedLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+          className="icons"
         />
       {children}
       <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>

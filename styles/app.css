@@ -162,3 +162,7 @@ code {
 #root > div > div > div > div {
   margin: 3vh 0;
 }
+.icons{
+  margin-left: 5%;
+  padding-left: 10%;
+}

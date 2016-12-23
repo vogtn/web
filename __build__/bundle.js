@@ -28659,6 +28659,22 @@
 	  var mediumLink = 'https://medium.com/@nicolasjvogt';
 	  var linkedLink = 'https://www.linkedin.com/in/vogtn';
 	
+	  function togithubLink() {
+	    window.open(githubLink);
+	  }
+	  function togithubLink() {
+	    window.open(twitterLink);
+	  }
+	  function tocodepenLink() {
+	    window.open(codepenLink);
+	  }
+	  function tomediumLink() {
+	    window.open(mediumLink);
+	  }
+	  function tolinkedLink() {
+	    window.open(linkedLink);
+	  }
+	
 	  return _react2.default.createElement(
 	    'div',
 	    null,
@@ -28670,32 +28686,37 @@
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'github',
 	      size: '4x',
-	      onClick: githubLink,
-	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	      onClick: togithubLink(),
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	      className: 'icons'
 	    }),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'twitter',
 	      size: '4x',
-	      onClick: twitterLink,
-	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	      onClick: totwitterLink(),
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	      className: 'icons'
 	    }),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'codepen',
 	      size: '4x',
-	      onClick: codepenLink,
-	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	      onClick: tocodepenLink(),
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	      className: 'icons'
 	    }),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'medium',
 	      size: '4x',
-	      onClick: mediumLink,
-	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	      onClick: tomediumLink(),
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	      className: 'icons'
 	    }),
 	    _react2.default.createElement(FontAwesome, {
 	      name: 'linkedin-square',
 	      size: '4x',
-	      onClick: linkedLink,
-	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	      onClick: tolinkedLink(),
+	      style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	      className: 'icons'
 	    }),
 	    children,
 	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } })
