@@ -28664,7 +28664,8 @@
 	    _react2.default.createElement(
 	      'a',
 	      { href: githubLink },
-	      _react2.default.createElement('i', { 'class': 'fa github fa-2x' })
+	      _react2.default.createElement('i', { 'class': 'fa github fa-2x' }),
+	      'Hello'
 	    ),
 	    children,
 	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } })

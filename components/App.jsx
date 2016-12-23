@@ -13,7 +13,7 @@ function App({ children, routes }) {
   return (
     <div>
       <h1>Nicolas Vogt - Web Developer</h1>
-      <a href={githubLink}><i class="fa github fa-2x"></i></a>
+      <a href={githubLink}><i class="fa github fa-2x"></i>Hello</a>
       {children}
       <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
       </div>
