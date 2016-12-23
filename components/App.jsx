@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
+var FontAwesome = require('react-fontawesome');
 
 const propTypes = {
   children: PropTypes.element.isRequired,
@@ -13,7 +14,11 @@ function App({ children, routes }) {
   return (
     <div>
       <h1>Nicolas Vogt - Web Developer</h1>
-      <a href={githubLink}><i class="fa fa-github fa-2x"></i></a>
+        <FontAwesome
+          name='github'
+          size='2x'
+          style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+        />
       {children}
       <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
       </div>
