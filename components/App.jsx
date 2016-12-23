@@ -37,35 +37,35 @@ function App({ children, routes }) {
         <FontAwesome
           name='github'
           size='4x'
-          onClick={togithubLink()}
+          onClick={this.togithubLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         />
         <FontAwesome
           name='twitter'
           size='4x'
-          onClick={totwitterLink()}
+          onClick={this.totwitterLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         />
         <FontAwesome
           name='codepen'
           size='4x'
-          onClick={tocodepenLink()}
+          onClick={this.tocodepenLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         />
         <FontAwesome
           name='medium'
           size='4x'
-          onClick={tomediumLink()}
+          onClick={this.tomediumLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         />
         <FontAwesome
           name='linkedin-square'
           size='4x'
-          onClick={tolinkedLink()}
+          onClick={this.tolinkedLink()}
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         />
