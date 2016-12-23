@@ -28717,13 +28717,7 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'Please see the ',
-	      _react2.default.createElement(
-	        'a',
-	        { href: repoReadmeLink },
-	        'repo readme'
-	      ),
-	      ' for instructions on how to use this boilerplate to deploy your own single page app using GitHub Pages.'
+	      'Welcome to my website built with react, react-router, explore my projects or social media links!'
 	    )
 	  );
 	}

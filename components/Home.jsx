@@ -11,9 +11,7 @@ function Home() {
     <div>
       <div><Link to="/web/example">Example page</Link></div>
       <p>
-        Please see the <a href={repoReadmeLink}>repo readme</a> for
-        instructions on how to use this boilerplate
-        to deploy your own single page app using GitHub Pages.
+        Welcome to my website built with react, react-router, explore my projects or social media links!
       </p>
     </div>
   );
