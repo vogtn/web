@@ -28706,6 +28706,15 @@
 	    'div',
 	    null,
 	    _react2.default.createElement(
+	      'div',
+	      null,
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/web/example' },
+	        'Example page'
+	      )
+	    ),
+	    _react2.default.createElement(
 	      'p',
 	      null,
 	      'This is an example single page app built with ',
@@ -28747,24 +28756,6 @@
 	        'repo readme'
 	      ),
 	      ' for instructions on how to use this boilerplate to deploy your own single page app using GitHub Pages.'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      null,
-	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/web/example' },
-	        'Example page'
-	      )
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      null,
-	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/web/example/two-deep?field1=foo&field2=bar#boom!' },
-	        'Example two deep with query and hash'
-	      )
 	    )
 	  );
 	}
