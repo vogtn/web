@@ -19,7 +19,7 @@ function Home() {
         </div>
       </div>
       <a href="#"><div className="box-description">Hello1</div></a>
-      <div className="container"><a href ="#"></a>
+      <div className="container">
         <div id="boxTwo" className="box fade-in two">
           I can fade in too!
         </div>
@@ -31,6 +31,7 @@ function Home() {
         </div>
       </div>
       <a href="#"><div className="box-description">Hello3</div></a>
+      <a href="#">I am a link test</a>
     </div>
   );
 }

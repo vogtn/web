@@ -28939,7 +28939,6 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'container' },
-	      _react2.default.createElement('a', { href: '#' }),
 	      _react2.default.createElement(
 	        'div',
 	        { id: 'boxTwo', className: 'box fade-in two' },
@@ -28973,6 +28972,11 @@
 	        { className: 'box-description' },
 	        'Hello3'
 	      )
+	    ),
+	    _react2.default.createElement(
+	      'a',
+	      { href: '#' },
+	      'I am a link test'
 	    )
 	  );
 	}
