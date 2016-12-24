@@ -233,6 +233,6 @@ code {
 #boxThree:hover + #boxTwo {border: 3px solid orange;}
 
 .box-description{
-  float: right;
+  float: left;
   font-family: 'Marcellus', serif;
 }
