@@ -28928,29 +28928,19 @@
 	      ),
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'box-description' },
-	        'Look at me!'
-	      ),
-	      _react2.default.createElement(
-	        'div',
 	        { id: 'boxTwo', className: 'box fade-in two' },
 	        'I can fade in too!'
 	      ),
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'box-description' },
-	        'Mee too!'
-	      ),
-	      _react2.default.createElement(
-	        'div',
 	        { id: 'boxThree', className: 'box fade-in three' },
 	        'I can fade in three!'
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'box-description' },
-	        'Also ME!'
 	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'box-description' },
+	      'Hello'
 	    )
 	  );
 	}
