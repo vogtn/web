@@ -231,5 +231,7 @@ code {
 #boxThree:hover {border: 3px solid orange;}
 
 .box-description{
-  font-family: 'Marcellus', serif;
+  font-family: 'Play', sans-serif;
+  text-decoration: overline;
+  font-size: 20px;
 }

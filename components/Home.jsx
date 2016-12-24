@@ -18,19 +18,19 @@ function Home() {
           Look at me fade in.
         </div>
       </div>
-      <div className="box-description"><a href="#">Hello1</a></div>
+      <div className="box-description">Projects</div>
       <div className="container">
         <div id="boxTwo" className="box fade-in two">
           I can fade in too!
         </div>
       </div>
-      <div className="box-description"><a href="#">Hello2</a></div>
+      <div className="box-description">Hello2</div>
       <div className="container"><a href="#"></a>
         <div id="boxThree" className="box fade-in three">
           I can fade in three!
         </div>
       </div>
-      <div className="box-description"><a href="#">Hello3</a></div>
+      <div className="box-description">Hello3</div>
     </div>
   );
 }

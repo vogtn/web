@@ -28930,11 +28930,7 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'box-description' },
-	      _react2.default.createElement(
-	        'a',
-	        { href: '#' },
-	        'Hello1'
-	      )
+	      'Projects'
 	    ),
 	    _react2.default.createElement(
 	      'div',
@@ -28948,11 +28944,7 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'box-description' },
-	      _react2.default.createElement(
-	        'a',
-	        { href: '#' },
-	        'Hello2'
-	      )
+	      'Hello2'
 	    ),
 	    _react2.default.createElement(
 	      'div',
@@ -28967,11 +28959,7 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'box-description' },
-	      _react2.default.createElement(
-	        'a',
-	        { href: '#' },
-	        'Hello3'
-	      )
+	      'Hello3'
 	    )
 	  );
 	}
