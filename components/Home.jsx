@@ -17,14 +17,20 @@ function Home() {
         <div id="boxOne" className="box fade-in one">
           Look at me fade in.
         </div>
+      </div>
+      <div className="box-description">Hello1</div>
+      <div className="container">
         <div id="boxTwo" className="box fade-in two">
           I can fade in too!
         </div>
+      </div>
+      <div className="box-description">Hello2</div>
+      <div className="container">
         <div id="boxThree" className="box fade-in three">
           I can fade in three!
         </div>
       </div>
-      <div className="box-description">Hello</div>
+      <div className="box-description">Hello3</div>
     </div>
   );
 }
