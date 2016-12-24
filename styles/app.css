@@ -96,21 +96,21 @@ a:hover, a:active {
 }
 
 .extended-link > span {
-  border-bottom: 1px dotted rgb(0, 168, 0);
+  border-bottom: 10px dotted rgb(0, 168, 0);
 }
 
 .extended-link:hover > span, .extended-link:active > span {
-  border-bottom: 1px solid rgb(0, 168, 0);
+  border-bottom: 10px solid rgb(0, 168, 0);
   color: black;
 }
 
 .current-input-touch .extended-link:hover > span {
-  border-bottom: 1px dotted rgb(0, 168, 0);
+  border-bottom: 10px dotted rgb(0, 168, 0);
   color: inherit;
 }
 
 .current-input-touch .extended-link:active > span {
-  border-bottom: 1px dashed rgb(0, 168, 0);
+  border-bottom: 10px dashed rgb(0, 168, 0);
   color: black;
 }
 
