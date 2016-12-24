@@ -170,7 +170,7 @@ code {
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-.container {color:white; float:left;}
+.container {color:white; float:left; margin-left: 10px;}
 
 .fade-in {
   opacity:0;  /* make things invisible upon start */
