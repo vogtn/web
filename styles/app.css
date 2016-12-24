@@ -170,7 +170,7 @@ code {
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-.container {color:white; float:right; margin-left: 10px;}
+.container {color:white; float:left; margin: 20px;}
 
 .fade-in {
   opacity:0;  /* make things invisible upon start */
@@ -223,14 +223,12 @@ code {
 
 
 
-#boxOne:hover ~ #boxTwo,
-#boxOne:hover ~ #boxThree {border: 3px solid orange;}
 
-#boxTwo:hover ~ #boxOne,
-#boxTwo:hover ~ #boxThree {border: 3px solid orange;}
+#boxOne:hover {border: 3px solid orange;}
 
-#boxThree:hover + #boxOne,
-#boxThree:hover + #boxTwo {border: 3px solid orange;}
+#boxTwo:hover {border: 3px solid orange;}
+
+#boxThree:hover {border: 3px solid orange;}
 
 .box-description{
   font-family: 'Marcellus', serif;
