@@ -28923,17 +28923,17 @@
 	      { 'class': 'container' },
 	      _react2.default.createElement(
 	        'div',
-	        { id: 'boxOne', 'class': 'box fade-in one' },
+	        { id: 'boxOne', className: 'box fade-in one' },
 	        'Look at me fade in.'
 	      ),
 	      _react2.default.createElement(
 	        'div',
-	        { id: 'boxTwo', 'class': 'box fade-in two' },
+	        { id: 'boxTwo', className: 'box fade-in two' },
 	        'I can fade in too!'
 	      ),
 	      _react2.default.createElement(
 	        'div',
-	        { id: 'boxThree', 'class': 'box fade-in three' },
+	        { id: 'boxThree', className: 'box fade-in three' },
 	        'I can fade in three!'
 	      )
 	    )
