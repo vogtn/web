@@ -28917,6 +28917,25 @@
 	      'p',
 	      null,
 	      'Welcome to my website built with react, react-router, explore my projects or social media links!'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { 'class': 'container' },
+	      _react2.default.createElement(
+	        'div',
+	        { id: 'boxOne', 'class': 'box fade-in one' },
+	        'Look at me fade in.'
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { id: 'boxTwo', 'class': 'box fade-in two' },
+	        'I can fade in too!'
+	      ),
+	      _react2.default.createElement(
+	        'div',
+	        { id: 'boxThree', 'class': 'box fade-in three' },
+	        'I can fade in three!'
+	      )
 	    )
 	  );
 	}
