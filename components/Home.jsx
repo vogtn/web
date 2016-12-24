@@ -13,7 +13,7 @@ function Home() {
       <p>
         Welcome to my website built with react, react-router, explore my projects or social media links!
       </p>
-      <div class="container">
+      <div className="container">
         <div id="boxOne" className="box fade-in one">
           Look at me fade in.
         </div>

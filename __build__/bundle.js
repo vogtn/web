@@ -28920,7 +28920,7 @@
 	    ),
 	    _react2.default.createElement(
 	      'div',
-	      { 'class': 'container' },
+	      { className: 'container' },
 	      _react2.default.createElement(
 	        'div',
 	        { id: 'boxOne', className: 'box fade-in one' },
