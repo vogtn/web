@@ -209,9 +209,8 @@ code {
 .box {
   width: 200px;
   height: 200px;
-  position: relative;
+  position: absolute;
   margin: 10px;
-  float: left;
   text-align:center;
   line-height:200px;
   background: #999;
