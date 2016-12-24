@@ -232,7 +232,7 @@ code {
 
 .box-description{
   font-family: 'Play', sans-serif;
-  text-decoration: overline;
+  text-decoration: underline;
   font-size: 20px;
   margin-top: 20px;
 }
