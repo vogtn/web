@@ -17,12 +17,15 @@ function Home() {
         <div id="boxOne" className="box fade-in one">
           Look at me fade in.
         </div>
+          <div className="box-description">Look at me!</div>
         <div id="boxTwo" className="box fade-in two">
           I can fade in too!
         </div>
+          <div className="box-description">Mee too!</div>
         <div id="boxThree" className="box fade-in three">
           I can fade in three!
         </div>
+          <div className="box-description">Also ME!</div>
       </div>
 
     </div>
