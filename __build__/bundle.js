@@ -28723,7 +28723,7 @@
 	      'div',
 	      null,
 	      _react2.default.createElement(
-	        'a',
+	        'div',
 	        { className: 'contacts' },
 	        '1-425-829-0163'
 	      ),
@@ -28739,7 +28739,7 @@
 	        '"\\n"'
 	      ),
 	      _react2.default.createElement(
-	        'a',
+	        'div',
 	        { className: 'contacts' },
 	        'nicolasjvogt@gmail.com'
 	      ),
