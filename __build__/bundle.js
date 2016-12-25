@@ -28722,6 +28722,11 @@
 	    _react2.default.createElement(
 	      'div',
 	      null,
+	      _react2.default.createElement(
+	        'a',
+	        null,
+	        '425-829-0163'
+	      ),
 	      _react2.default.createElement(FontAwesome, {
 	        name: 'mobile',
 	        size: '2x',
@@ -28729,9 +28734,9 @@
 	        className: 'contacts'
 	      }),
 	      _react2.default.createElement(
-	        'a',
+	        'div',
 	        null,
-	        '425-829-0163'
+	        '---'
 	      ),
 	      _react2.default.createElement(
 	        'a',
