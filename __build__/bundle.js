@@ -28934,15 +28934,6 @@
 	    'div',
 	    null,
 	    _react2.default.createElement(
-	      'div',
-	      null,
-	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/web/example' },
-	        'Example page'
-	      )
-	    ),
-	    _react2.default.createElement(
 	      'p',
 	      null,
 	      'Welcome to my website built with react, react-router, explore my projects or social media links!'
@@ -29215,6 +29206,8 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	var FontAwesome = __webpack_require__(/*! react-fontawesome */ 252);
+	
 	var propTypes = {
 	  children: _react.PropTypes.element
 	};
@@ -29225,6 +29218,25 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/web/' },
+	        'Home',
+	        _react2.default.createElement(
+	          'a',
+	          { href: githubLink },
+	          _react2.default.createElement(FontAwesome, {
+	            name: 'arrow-left',
+	            size: '3x',
+	            style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	            className: 'icons'
+	          })
+	        )
+	      )
+	    ),
 	    _react2.default.createElement(
 	      'p',
 	      null,

@@ -9,7 +9,6 @@ function Home() {
 
   return (
     <div>
-      <div><Link to="/web/example">Example page</Link></div>
       <p>
         Welcome to my website built with react, react-router, explore my projects or social media links!
       </p>
