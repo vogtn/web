@@ -29225,16 +29225,11 @@
 	        _reactRouter.Link,
 	        { to: '/web/' },
 	        'Home',
-	        _react2.default.createElement(
-	          'a',
-	          { href: githubLink },
-	          _react2.default.createElement(FontAwesome, {
-	            name: 'arrow-left',
-	            size: '3x',
-	            style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	            className: 'icons'
-	          })
-	        )
+	        _react2.default.createElement(FontAwesome, {
+	          name: 'arrow-left',
+	          size: '3x',
+	          style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	          className: 'icons' })
 	      )
 	    ),
 	    _react2.default.createElement(
