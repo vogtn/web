@@ -28740,7 +28740,7 @@
 	      ),
 	      _react2.default.createElement(
 	        'a',
-	        null,
+	        { className: 'contacts' },
 	        'nicolasjvogt@gmail.com'
 	      ),
 	      _react2.default.createElement(FontAwesome, {

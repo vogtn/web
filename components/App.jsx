@@ -59,7 +59,7 @@ function App({ children, routes }) {
             className="contacts"
           />
         <div>"\n"</div>
-        <a>nicolasjvogt@gmail.com</a><FontAwesome
+        <a className="contacts">nicolasjvogt@gmail.com</a><FontAwesome
               name='envelope-o'
               size='2x'
               style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
