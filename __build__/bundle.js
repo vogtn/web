@@ -28946,14 +28946,9 @@
 	      'div',
 	      { className: 'container' },
 	      _react2.default.createElement(
-	        'div',
-	        { id: 'boxOne', className: 'box fade-in one' },
-	        _react2.default.createElement(
-	          _reactRouter.Link,
-	          { to: '/web/example' },
-	          'Example page'
-	        ),
-	        'Look at me fade in.'
+	        _reactRouter.Link,
+	        { to: '/web/example' },
+	        _react2.default.createElement('div', { id: 'boxOne', className: 'box fade-in one' })
 	      )
 	    ),
 	    _react2.default.createElement(
