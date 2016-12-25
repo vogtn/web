@@ -83,6 +83,14 @@
 	
 	var _Projects2 = _interopRequireDefault(_Projects);
 	
+	var _Experience = __webpack_require__(/*! ./components/Experience */ 259);
+	
+	var _Experience2 = _interopRequireDefault(_Experience);
+	
+	var _Resume = __webpack_require__(/*! ./components/Resume */ 260);
+	
+	var _Resume2 = _interopRequireDefault(_Resume);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var routes = _react2.default.createElement(
@@ -95,6 +103,8 @@
 	    _react2.default.createElement(_reactRouter.Route, { path: '/web/two-deep', mapMenuTitle: 'Two Deep', component: _ExampleTwoDeepComponent2.default })
 	  ),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/web/projects', mapMenuTitle: 'Projects', component: _Projects2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/web/experience', mapMenuTitle: 'Experience', component: _Experience2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/web/resume', mapMenuTitle: 'Resume', component: _Resume2.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '*', mapMenuTitle: 'Page Not Found', component: _PageNotFound2.default })
 	);
 	
@@ -28957,7 +28967,7 @@
 	      { className: 'container' },
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/web/example' },
+	        { to: '/web/experience' },
 	        _react2.default.createElement('div', { id: 'boxTwo', className: 'box fade-in two' })
 	      )
 	    ),
@@ -28971,7 +28981,7 @@
 	      { className: 'container' },
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/web/example' },
+	        { to: '/web/resume' },
 	        _react2.default.createElement('div', { id: 'boxThree', className: 'box fade-in three' })
 	      )
 	    ),
@@ -29243,6 +29253,124 @@
 	Projects.propTypes = propTypes;
 	
 	exports.default = Projects;
+
+/***/ },
+/* 259 */
+/*!***********************************!*\
+  !*** ./components/Experience.jsx ***!
+  \***********************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 178);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var FontAwesome = __webpack_require__(/*! react-fontawesome */ 252);
+	
+	var propTypes = {
+	  children: _react.PropTypes.element
+	};
+	
+	function Experience(_ref) {
+	  var children = _ref.children;
+	
+	  return _react2.default.createElement(
+	    'div',
+	    null,
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/web/' },
+	        'Home',
+	        _react2.default.createElement(FontAwesome, {
+	          name: 'arrow-left',
+	          size: '3x',
+	          style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	          className: 'icons' })
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Experience Page!!'
+	    )
+	  );
+	}
+	
+	Experience.propTypes = propTypes;
+	
+	exports.default = Experience;
+
+/***/ },
+/* 260 */
+/*!*******************************!*\
+  !*** ./components/Resume.jsx ***!
+  \*******************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 178);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var FontAwesome = __webpack_require__(/*! react-fontawesome */ 252);
+	
+	var propTypes = {
+	  children: _react.PropTypes.element
+	};
+	
+	function Resume(_ref) {
+	  var children = _ref.children;
+	
+	  return _react2.default.createElement(
+	    'div',
+	    null,
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/web/' },
+	        'Home',
+	        _react2.default.createElement(FontAwesome, {
+	          name: 'arrow-left',
+	          size: '3x',
+	          style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	          className: 'icons' })
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Resume Page!!'
+	    )
+	  );
+	}
+	
+	Resume.propTypes = propTypes;
+	
+	exports.default = Resume;
 
 /***/ }
 /******/ ]);

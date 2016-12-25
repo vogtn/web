@@ -20,14 +20,14 @@ function Home() {
       </div>
       <div className="box-description">Projects</div>
       <div className="container">
-        <Link to="/web/example">
+        <Link to="/web/experience">
           <div id="boxTwo" className="box fade-in two">
           </div>
         </Link>
       </div>
       <div className="box-description">Experience</div>
       <div className="container">
-        <Link to="/web/example">
+        <Link to="/web/resume">
           <div id="boxThree" className="box fade-in three">
           </div>
         </Link>
