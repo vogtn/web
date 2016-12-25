@@ -29243,9 +29243,35 @@
 	      )
 	    ),
 	    _react2.default.createElement(
+	      'div',
+	      { className: 'container' },
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/web/projects' },
+	        _react2.default.createElement('div', { id: 'boxOne', className: 'box fade-in one' })
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'box-description' },
+	      'React Website'
+	    ),
+	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'Project Page!!'
+	      'This website was built using a react/react-router boilerplate by:',
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://github.com/rafrex/' },
+	        'rafrex'
+	      ),
+	      ', which utilizes gh-pages for the routes. I build a modern design and centered around the animated box routes. My plan is to use this as a portfolio of my web development work. This was meant to improve upon my use of a Bootstrap website which can be found here: ',
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'http://vogtn.github.io/WebPage2/' },
+	        'Bootstrap Website'
+	      ),
+	      '. There was noticable slower loading time, and overall I felt it didn\'t properly convey my skills towards modern stacks.'
 	    )
 	  );
 	}
