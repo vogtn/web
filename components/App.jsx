@@ -57,13 +57,13 @@ function App({ children, routes }) {
             size='2x'
             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
             className="contacts"
-          />
+          /><a>425-829-0163</a>
         <FontAwesome
               name='envelope-o'
               size='2x'
               style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
               className="contacts"
-            />
+            /><a>nicolasjvogt@gmail.com</a>
       </div>
     </div>
   );
