@@ -237,5 +237,6 @@ code {
   margin-top: 20px;
 }
 .contacts{
-  clear: both;
+  margin-left: 5%;
+  padding-left: 5%;
 }
