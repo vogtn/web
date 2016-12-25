@@ -28924,6 +28924,11 @@
 	      _react2.default.createElement(
 	        'div',
 	        { id: 'boxOne', className: 'box fade-in one' },
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: '/web/example' },
+	          'Example page'
+	        ),
 	        'Look at me fade in.'
 	      )
 	    ),
@@ -28944,12 +28949,11 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'box-description' },
-	      'Hello2'
+	      'Experience'
 	    ),
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'container' },
-	      _react2.default.createElement('a', { href: '#' }),
 	      _react2.default.createElement(
 	        'div',
 	        { id: 'boxThree', className: 'box fade-in three' },
@@ -28959,7 +28963,7 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'box-description' },
-	      'Hello3'
+	      'Resume'
 	    )
 	  );
 	}

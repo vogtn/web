@@ -14,7 +14,7 @@ function Home() {
         Welcome to my website built with react, react-router, explore my projects or social media links!
       </p>
       <div className="container">
-        <div id="boxOne" className="box fade-in one">
+        <div id="boxOne" className="box fade-in one"><Link to="/web/example">Example page</Link>
           Look at me fade in.
         </div>
       </div>
@@ -24,13 +24,13 @@ function Home() {
           I can fade in too!
         </div>
       </div>
-      <div className="box-description">Hello2</div>
-      <div className="container"><a href="#"></a>
+      <div className="box-description">Experience</div>
+      <div className="container">
         <div id="boxThree" className="box fade-in three">
           I can fade in three!
         </div>
       </div>
-      <div className="box-description">Hello3</div>
+      <div className="box-description">Resume</div>
     </div>
   );
 }
