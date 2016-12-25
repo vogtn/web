@@ -29271,7 +29271,34 @@
 	        { href: 'http://vogtn.github.io/WebPage2/' },
 	        'Bootstrap Website'
 	      ),
-	      '. There was noticable slower loading time, and overall I felt it didn\'t properly convey my skills towards modern stacks.'
+	      ' The git repo for this website can be found ',
+	      _react2.default.createElement('a', { href: 'https://github.com/vogtn/web' }),
+	      'here.'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'container' },
+	      _react2.default.createElement(
+	        _reactRouter.Link,
+	        { to: '/web/projects' },
+	        _react2.default.createElement('div', { id: 'boxTwo', className: 'box fade-in two' })
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'box-description' },
+	      'Node: "Up and Running" Summary '
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'The purpose of this collection of node programs is to gain syntatic muscle memory & overall exposure to node using :"Node Up and Running"by: Tom Hughes-Croucher, Mike Wilson. This will remain a useful "cheatsheet" and reference guide for future node projects. Concepts in these tutorials include: Loop, single-threaded, I/O, Serial vs. Parallel I/O, req and res objects, Cluster module, Listening events (server.on()), Readable and Writeable Streams, DNS module, Processes, Child Processes, CouchDB, Redis, MongoDB, mySQL, Mongoose, Schema, Sequelize, Connection Pooling, MQ Protocols, RabbitMQ, ACMQ, Express. A full note guide can be found under the file: "Node notes.doc" in the ',
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://github.com/vogtn/nodeUpandRunning' },
+	        'git repo'
+	      ),
+	      '.'
 	    )
 	  );
 	}
