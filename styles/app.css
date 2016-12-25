@@ -232,8 +232,11 @@ code {
 
 .box-description{
   font-family: 'Play', sans-serif;
-  float: right;
   text-decoration: underline;
   font-size: 20px;
   margin-top: 20px;
+}
+.contact{
+  margin-left: 5%;
+  padding-left: 5%;
 }

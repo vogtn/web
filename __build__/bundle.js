@@ -28718,7 +28718,23 @@
 	      })
 	    ),
 	    children,
-	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } })
+	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } }),
+	    _react2.default.createElement(
+	      'div',
+	      null,
+	      _react2.default.createElement(FontAwesome, {
+	        name: 'mobile',
+	        size: '4x',
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	        className: 'contacts'
+	      }),
+	      _react2.default.createElement(FontAwesome, {
+	        name: 'envelope-o',
+	        size: '4x',
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	        className: 'contacts'
+	      })
+	    )
 	  );
 	}
 	
