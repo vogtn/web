@@ -8,6 +8,7 @@ import Home from './components/Home';
 import PageNotFound from './components/PageNotFound';
 import ExampleComponent from './components/ExampleComponent';
 import ExampleTwoDeepComponent from './components/ExampleTwoDeepComponent';
+import Projects from './components/Projects'
 
 
 const routes = (
@@ -16,6 +17,9 @@ const routes = (
 
     <Route path="/web/example" mapMenuTitle="Example" component={ExampleComponent}>
       <Route path="/web/two-deep" mapMenuTitle="Two Deep" component={ExampleTwoDeepComponent} />
+    </Route>
+
+    <Route path="/web/projects" mapMenuTitle="Projects" component={Projects}>
     </Route>
 
     <Route path="*" mapMenuTitle="Page Not Found" component={PageNotFound} />

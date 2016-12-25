@@ -79,6 +79,10 @@
 	
 	var _ExampleTwoDeepComponent2 = _interopRequireDefault(_ExampleTwoDeepComponent);
 	
+	var _Projects = __webpack_require__(/*! ./components/Projects */ 258);
+	
+	var _Projects2 = _interopRequireDefault(_Projects);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var routes = _react2.default.createElement(
@@ -90,6 +94,7 @@
 	    { path: '/web/example', mapMenuTitle: 'Example', component: _ExampleComponent2.default },
 	    _react2.default.createElement(_reactRouter.Route, { path: '/web/two-deep', mapMenuTitle: 'Two Deep', component: _ExampleTwoDeepComponent2.default })
 	  ),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/web/projects', mapMenuTitle: 'Projects', component: _Projects2.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '*', mapMenuTitle: 'Page Not Found', component: _PageNotFound2.default })
 	);
 	
@@ -28947,7 +28952,7 @@
 	      { className: 'container' },
 	      _react2.default.createElement(
 	        _reactRouter.Link,
-	        { to: '/web/example' },
+	        { to: '/web/projects' },
 	        _react2.default.createElement('div', { id: 'boxOne', className: 'box fade-in one' })
 	      )
 	    ),
@@ -29188,6 +29193,49 @@
 	ExampleTwoDeepComponent.propTypes = propTypes;
 	
 	exports.default = ExampleTwoDeepComponent;
+
+/***/ },
+/* 258 */
+/*!*********************************!*\
+  !*** ./components/Projects.jsx ***!
+  \*********************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 178);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var propTypes = {
+	  children: _react.PropTypes.element
+	};
+	
+	function Projects(_ref) {
+	  var children = _ref.children;
+	
+	  return _react2.default.createElement(
+	    'div',
+	    null,
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Project Page!!'
+	    )
+	  );
+	}
+	
+	Projects.propTypes = propTypes;
+	
+	exports.default = Projects;
 
 /***/ }
 /******/ ]);
