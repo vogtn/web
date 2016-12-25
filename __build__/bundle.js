@@ -29292,7 +29292,29 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'The purpose of this collection of node programs is to gain syntatic muscle memory & overall exposure to node using :"Node Up and Running"by: Tom Hughes-Croucher, Mike Wilson. This will remain a useful "cheatsheet" and reference guide for future node projects. Concepts in these tutorials include: Loop, single-threaded, I/O, Serial vs. Parallel I/O, req and res objects, Cluster module, Listening events (server.on()), Readable and Writeable Streams, DNS module, Processes, Child Processes, CouchDB, Redis, MongoDB, mySQL, Mongoose, Schema, Sequelize, Connection Pooling, MQ Protocols, RabbitMQ, ACMQ, Express. A full note guide can be found under the file: "Node notes.doc" in the ',
+	      'The purpose of this collection of node programs is to gain syntatic muscle memory & overall exposure to a backend technology (node) using: "Node Up and Running" by: Tom Hughes-Croucher, Mike Wilson. This will remain a useful "cheatsheet" and reference guide for future node projects such as: ',
+	      _react2.default.createElement('br', null),
+	      ' ',
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://github.com/vogtn/NodeTravelSite' },
+	        _react2.default.createElement(
+	          'b',
+	          null,
+	          'Node Travel Site'
+	        )
+	      ),
+	      '. or ',
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://github.com/vogtn/twitterNodeSentiment' },
+	        _react2.default.createElement(
+	          'b',
+	          null,
+	          'Twitter Sentiment Analysis'
+	        )
+	      ),
+	      'Concepts in these tutorials include: Loop, single-threaded, I/O, Serial vs. Parallel I/O, req and res objects, Cluster module, Listening events (server.on()), Readable and Writeable Streams, DNS module, Processes, Child Processes, CouchDB, Redis, MongoDB, mySQL, Mongoose, Schema, Sequelize, Connection Pooling, MQ Protocols, RabbitMQ, ACMQ, Express. A full note guide can be found under the file: "Node notes.doc" in the ',
 	      _react2.default.createElement(
 	        'a',
 	        { href: 'https://github.com/vogtn/nodeUpandRunning' },
