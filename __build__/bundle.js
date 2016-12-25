@@ -28725,7 +28725,7 @@
 	      _react2.default.createElement(
 	        'a',
 	        null,
-	        '425-829-0163'
+	        '  425-829-0163         '
 	      ),
 	      _react2.default.createElement(FontAwesome, {
 	        name: 'mobile',
@@ -28734,14 +28734,9 @@
 	        className: 'contacts'
 	      }),
 	      _react2.default.createElement(
-	        'div',
-	        null,
-	        '    '
-	      ),
-	      _react2.default.createElement(
 	        'a',
 	        null,
-	        'nicolasjvogt@gmail.com'
+	        '  nicolasjvogt@gmail.com'
 	      ),
 	      _react2.default.createElement(FontAwesome, {
 	        name: 'envelope-o',
