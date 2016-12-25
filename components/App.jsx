@@ -58,6 +58,7 @@ function App({ children, routes }) {
             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
             className="contacts"
           />
+        <div>"\n"</div>
         <a>nicolasjvogt@gmail.com</a><FontAwesome
               name='envelope-o'
               size='2x'

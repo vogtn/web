@@ -28734,6 +28734,11 @@
 	        className: 'contacts'
 	      }),
 	      _react2.default.createElement(
+	        'div',
+	        null,
+	        '"\\n"'
+	      ),
+	      _react2.default.createElement(
 	        'a',
 	        null,
 	        'nicolasjvogt@gmail.com'
