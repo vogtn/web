@@ -28723,9 +28723,13 @@
 	      'div',
 	      null,
 	      _react2.default.createElement(
-	        'a',
+	        'div',
 	        null,
-	        '425-829-0163'
+	        _react2.default.createElement(
+	          'a',
+	          null,
+	          '425-829-0163'
+	        )
 	      ),
 	      _react2.default.createElement(FontAwesome, {
 	        name: 'mobile',
