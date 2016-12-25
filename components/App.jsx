@@ -52,18 +52,15 @@ function App({ children, routes }) {
       <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
       </div>
       <div className="contactbox">
-        <div className="contacts">1-425-829-0163</div><FontAwesome
+        <div>1-425-829-0163</div><FontAwesome
             name='mobile'
             size='2x'
             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-            className="contacts"
           />
-        <div>\n</div>
-        <div className="contacts">nicolasjvogt@gmail.com</div><FontAwesome
+        <div>nicolasjvogt@gmail.com</div><FontAwesome
               name='envelope-o'
               size='2x'
               style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-              className="contacts"
             />
       </div>
     </div>

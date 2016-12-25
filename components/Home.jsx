@@ -30,7 +30,7 @@ function Home() {
           I can fade in three!
         </div>
       </div>
-      <div className="box-description">Resume</div>
+      <div className="box-description">Resume/Contact</div>
     </div>
   );
 }

@@ -28724,30 +28724,23 @@
 	      { className: 'contactbox' },
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'contacts' },
+	        null,
 	        '1-425-829-0163'
 	      ),
 	      _react2.default.createElement(FontAwesome, {
 	        name: 'mobile',
 	        size: '2x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'contacts'
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	      }),
 	      _react2.default.createElement(
 	        'div',
 	        null,
-	        '\\n'
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'contacts' },
 	        'nicolasjvogt@gmail.com'
 	      ),
 	      _react2.default.createElement(FontAwesome, {
 	        name: 'envelope-o',
 	        size: '2x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'contacts'
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	      })
 	    )
 	  );
@@ -28994,7 +28987,7 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'box-description' },
-	      'Resume'
+	      'Resume/Contact'
 	    )
 	  );
 	}
