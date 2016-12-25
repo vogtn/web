@@ -21,15 +21,19 @@ function Home() {
       </div>
       <div className="box-description">Projects</div>
       <div className="container">
-        <div id="boxTwo" className="box fade-in two">
-          I can fade in too!
-        </div>
+        <Link to="/web/example">
+          <div id="boxTwo" className="box fade-in two">
+            I can fade in too!
+          </div>
+        </Link>
       </div>
       <div className="box-description">Experience</div>
       <div className="container">
-        <div id="boxThree" className="box fade-in three">
-          I can fade in three!
-        </div>
+        <Link to="/web/example">
+          <div id="boxThree" className="box fade-in three">
+            I can fade in three!
+          </div>
+        </Link>
       </div>
       <div className="box-description">Resume/Contact</div>
     </div>
