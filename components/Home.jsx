@@ -23,7 +23,6 @@ function Home() {
       <div className="container">
         <Link to="/web/example">
           <div id="boxTwo" className="box fade-in two">
-            I can fade in too!
           </div>
         </Link>
       </div>
@@ -31,7 +30,6 @@ function Home() {
       <div className="container">
         <Link to="/web/example">
           <div id="boxThree" className="box fade-in three">
-            I can fade in three!
           </div>
         </Link>
       </div>
