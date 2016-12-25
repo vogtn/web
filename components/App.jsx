@@ -52,13 +52,13 @@ function App({ children, routes }) {
       <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
       </div>
       <div>
-        425-829-0163<FontAwesome
+        <FontAwesome
             name='mobile'
             size='2x'
             style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
             className="contacts"
           />
-        nicolasjvogt@gmail.com<FontAwesome
+        <FontAwesome
               name='envelope-o'
               size='2x'
               style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
