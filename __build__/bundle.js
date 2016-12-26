@@ -29246,8 +29246,8 @@
 	      'div',
 	      { className: 'container' },
 	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/web/projects' },
+	        'a',
+	        { href: 'https://github.com/vogtn/web' },
 	        _react2.default.createElement('div', { id: 'boxOne', className: 'box fade-in one' })
 	      )
 	    ),
@@ -29279,8 +29279,8 @@
 	      'div',
 	      { className: 'container' },
 	      _react2.default.createElement(
-	        _reactRouter.Link,
-	        { to: '/web/projects' },
+	        'a',
+	        { href: 'https://github.com/vogtn/nodeUpandRunning' },
 	        _react2.default.createElement('div', { id: 'boxTwo', className: 'box fade-in two' })
 	      )
 	    ),
@@ -29321,7 +29321,27 @@
 	        'git repo'
 	      ),
 	      '.'
-	    )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'container' },
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://github.com/vogtn/wikipedia-search' },
+	        _react2.default.createElement('div', { id: 'boxThree', className: 'box fade-in three' })
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'box-description' },
+	      'wikipedia viewer'
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'One of my first apps, using the Wikipedia API via jquery and displaying the result of the search to a responsive text area. I learned so much in developing this, from how to properly handle fetches, and responsive formatting. The best lesson I learned was: It\'s easy to claim you know what\'s best for the user until you use it yourself. I didn\'t realize how silly it would be to have a search function that would only search after button pressing. Then it\'s just Wikipedia! The usefulness of the app comes in the response from key presses. I\'m glad I spent the time to realize this flow.'
+	    ),
+	    _react2.default.createElement('br', null)
 	  );
 	}
 	
