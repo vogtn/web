@@ -28954,7 +28954,11 @@
 	      _react2.default.createElement(
 	        _reactRouter.Link,
 	        { to: '/web/projects' },
-	        _react2.default.createElement('div', { id: 'boxOne', className: 'box fade-in one' })
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'boxOne', className: 'box fade-in one' },
+	          _react2.default.createElement('img', { src: '/img/projects.png' })
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(
