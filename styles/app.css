@@ -11,7 +11,9 @@ html, body, div, span, a, p, ul, li, h1, code, nav {
   background: transparent;
 }
 
-
+html {
+  background-color: transparent;
+}
 
 body {
   font-family: helvetica neue, helvetica, sans-serif;
