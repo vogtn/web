@@ -17,9 +17,24 @@ function Experience({ children }) {
           className="icons"/>
         </Link>
       </div>
-      <p>
-        Experience Page!!
-      </p>
+      <div className="container">
+        <a href="https://github.com/vogtn/web">
+          <div id="boxOne" className="box fade-in one">
+            <img src="./img/reactwebsite.png"></img>
+          </div>
+        </a>
+      </div>
+      <div className="box-description">FreeCodeCamp</div>
+      <p>CodeCampDescription here</p>
+      <div className="container">
+        <a href="https://github.com/vogtn/web">
+          <div id="boxOne" className="box fade-in one">
+            <img src="./img/reactwebsite.png"></img>
+          </div>
+        </a>
+      </div>
+      <div className="box-description">Query.me</div>
+      <p>Query.me description here</p>
     </div>
   );
 }

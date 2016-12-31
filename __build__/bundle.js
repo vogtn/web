@@ -29413,9 +29413,50 @@
 	      )
 	    ),
 	    _react2.default.createElement(
+	      'div',
+	      { className: 'container' },
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://github.com/vogtn/web' },
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'boxOne', className: 'box fade-in one' },
+	          _react2.default.createElement('img', { src: './img/reactwebsite.png' })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'box-description' },
+	      'FreeCodeCamp'
+	    ),
+	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'Experience Page!!'
+	      'CodeCampDescription here'
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'container' },
+	      _react2.default.createElement(
+	        'a',
+	        { href: 'https://github.com/vogtn/web' },
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'boxOne', className: 'box fade-in one' },
+	          _react2.default.createElement('img', { src: './img/reactwebsite.png' })
+	        )
+	      )
+	    ),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'box-description' },
+	      'Query.me'
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Query.me description here'
 	    )
 	  );
 	}
