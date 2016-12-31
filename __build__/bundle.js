@@ -29281,7 +29281,11 @@
 	      _react2.default.createElement(
 	        'a',
 	        { href: 'https://github.com/vogtn/nodeUpandRunning' },
-	        _react2.default.createElement('div', { id: 'boxTwo', className: 'box fade-in two' })
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'boxTwo', className: 'box fade-in two' },
+	          _react2.default.createElement('img', { src: './img/nodeupandrunning.png' })
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(
