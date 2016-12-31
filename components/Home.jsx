@@ -15,6 +15,7 @@ function Home() {
       <div className="container">
         <Link to="/web/projects">
           <div id="boxOne" className="box fade-in one">
+            <img src="/img/projects.png"></img>
           </div>
         </Link>
       </div>
