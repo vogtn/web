@@ -29248,7 +29248,11 @@
 	      _react2.default.createElement(
 	        'a',
 	        { href: 'https://github.com/vogtn/web' },
-	        _react2.default.createElement('div', { id: 'boxOne', className: 'box fade-in one' })
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'boxOne', className: 'box fade-in one' },
+	          _react2.default.createElement('img', { src: './img/reactwebsite.png' })
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -29332,7 +29336,11 @@
 	      _react2.default.createElement(
 	        'a',
 	        { href: 'https://github.com/vogtn/wikipedia-search' },
-	        _react2.default.createElement('div', { id: 'boxThree', className: 'box fade-in three' })
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'boxThree', className: 'box fade-in three' },
+	          _react2.default.createElement('img', { src: './img/wikipediaApp.png' })
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(
