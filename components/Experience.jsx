@@ -19,7 +19,7 @@ function Experience({ children }) {
       </div>
       <div className="container">
         <a href="https://github.com/vogtn/web">
-          <div id="boxOne" className="box fade-in one">
+          <div id="boxOne" className="boxExperience fade-in one">
             <img src="./img/reactwebsite.png"></img>
           </div>
         </a>
@@ -28,7 +28,7 @@ function Experience({ children }) {
       <p>CodeCampDescription here</p>
       <div className="container">
         <a href="https://github.com/vogtn/web">
-          <div id="boxOne" className="box fade-in one">
+          <div id="boxOne" className="boxExperience fade-in two">
             <img src="./img/reactwebsite.png"></img>
           </div>
         </a>

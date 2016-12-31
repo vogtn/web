@@ -29420,7 +29420,7 @@
 	        { href: 'https://github.com/vogtn/web' },
 	        _react2.default.createElement(
 	          'div',
-	          { id: 'boxOne', className: 'box fade-in one' },
+	          { id: 'boxOne', className: 'boxExperience fade-in one' },
 	          _react2.default.createElement('img', { src: './img/reactwebsite.png' })
 	        )
 	      )
@@ -29443,7 +29443,7 @@
 	        { href: 'https://github.com/vogtn/web' },
 	        _react2.default.createElement(
 	          'div',
-	          { id: 'boxOne', className: 'box fade-in one' },
+	          { id: 'boxOne', className: 'boxExperience fade-in two' },
 	          _react2.default.createElement('img', { src: './img/reactwebsite.png' })
 	        )
 	      )
