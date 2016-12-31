@@ -24,6 +24,7 @@ function Experience({ children }) {
           </div>
         </a>
       </div>
+      <br />
       <div className="box-description">FreeCodeCamp</div>
       <p>CodeCampDescription here</p>
       <div className="container">

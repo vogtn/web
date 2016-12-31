@@ -29425,6 +29425,7 @@
 	        )
 	      )
 	    ),
+	    _react2.default.createElement('br', null),
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'box-description' },
