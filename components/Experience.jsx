@@ -33,7 +33,7 @@ function Experience({ children }) {
       in the current paradigm. It also gave me a sense of community and learning to utilize resources to learn on my own. From here I was able to branch out and find different stacks, and how
       people learned and utilized them.</p>
       <div className="container">
-        <a href="www.query.me">
+        <a href="www.queryapp.com">
           <div id="boxOne" className="boxExperience fade-in two">
             <img src="./img/query.png"></img>
           </div>
