@@ -29417,11 +29417,11 @@
 	      { className: 'container' },
 	      _react2.default.createElement(
 	        'a',
-	        { href: 'https://github.com/vogtn/web' },
+	        { href: 'https://www.freecodecamp.com/' },
 	        _react2.default.createElement(
 	          'div',
 	          { id: 'boxOne', className: 'boxExperience fade-in one' },
-	          _react2.default.createElement('img', { src: './img/reactwebsite.png' })
+	          _react2.default.createElement('img', { src: './img/freecodecamp.png' })
 	        )
 	      )
 	    ),
@@ -29434,18 +29434,18 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'CodeCampDescription here'
+	      'This was my first foray into serious web development. Previously, I had taken classes in C# and Java which was a wonderful introduction to basic topics and understanding how to think praigmatically. We mostly utilized low-level logic and objects to accomplish small projects, and even participated in Microsofts "Hunt the Wumpus" competition. FreeCodeCamp gave me the tools and platform to understand solutions to web development. The lessons start by teaching basic arimitic with javascript but then quickly transitions to using objects, jquery, and utlization of API\'s. This helped me understand the different tools and knowledge necessary for developing web appliations in the current paradigm. It also gave me a sense of community and learning to utilize resources to learn on my own. From here I was able to branch out and find different stacks, and how people learned and utilized them.'
 	    ),
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'container' },
 	      _react2.default.createElement(
 	        'a',
-	        { href: 'https://github.com/vogtn/web' },
+	        { href: 'query.me' },
 	        _react2.default.createElement(
 	          'div',
 	          { id: 'boxOne', className: 'boxExperience fade-in two' },
-	          _react2.default.createElement('img', { src: './img/reactwebsite.png' })
+	          _react2.default.createElement('img', { src: './img/query.png' })
 	        )
 	      )
 	    ),
