@@ -28686,6 +28686,7 @@
 	      'a',
 	      { href: githubLink },
 	      _react2.default.createElement(FontAwesome, {
+	        ariaLabel: 'github',
 	        name: 'github',
 	        size: '4x',
 	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
@@ -28696,6 +28697,7 @@
 	      'a',
 	      { href: twitterLink },
 	      _react2.default.createElement(FontAwesome, {
+	        ariaLabel: 'twitter',
 	        name: 'twitter',
 	        size: '4x',
 	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
@@ -28706,6 +28708,7 @@
 	      'a',
 	      { href: codepenLink },
 	      _react2.default.createElement(FontAwesome, {
+	        ariaLabel: 'codepen',
 	        name: 'codepen',
 	        size: '4x',
 	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
@@ -28716,6 +28719,7 @@
 	      'a',
 	      { href: mediumLink },
 	      _react2.default.createElement(FontAwesome, {
+	        ariaLabel: 'medium',
 	        name: 'medium',
 	        size: '4x',
 	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
@@ -28726,6 +28730,7 @@
 	      'a',
 	      { href: linkedLink },
 	      _react2.default.createElement(FontAwesome, {
+	        ariaLabel: 'linkedIn',
 	        name: 'linkedin-square',
 	        size: '4x',
 	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },

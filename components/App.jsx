@@ -19,30 +19,35 @@ function App({ children, routes }) {
     <div>
       <h1>Nicolas Vogt - Web Developer</h1>
         <a href={githubLink}><FontAwesome
+          ariaLabel='github'
           name='github'
           size='4x'
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         /></a>
       <a href={twitterLink}><FontAwesome
+          ariaLabel='twitter'
           name='twitter'
           size='4x'
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         /></a>
       <a href={codepenLink}><FontAwesome
+          ariaLabel='codepen'
           name='codepen'
           size='4x'
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         /></a>
       <a href={mediumLink}><FontAwesome
+          ariaLabel='medium'
           name='medium'
           size='4x'
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         /></a>
       <a href={linkedLink}><FontAwesome
+          ariaLabel='linkedIn'
           name='linkedin-square'
           size='4x'
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
