@@ -29449,7 +29449,7 @@
 	      { className: 'container' },
 	      _react2.default.createElement(
 	        'a',
-	        { href: 'www.queryapp.com' },
+	        { href: 'https://www.queryapp.com/' },
 	        _react2.default.createElement(
 	          'div',
 	          { id: 'boxOne', className: 'boxExperience fade-in two' },
