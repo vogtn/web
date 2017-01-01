@@ -47,11 +47,11 @@ function Projects({ children }) {
               </div>
             </a>
           </div>
-          <div className="box-description">wikipedia viewer</div>
+          <div className="box-description">Wikipedia Viewer</div>
           <p>One of my first apps, using the Wikipedia API via jquery and displaying the result of the search to a responsive text area. I learned so much in developing this, from how to properly handle fetches, and responsive formatting.
           The best lesson I learned was: It's easy to claim you know what's best for the user until you use it yourself. I didn't realize how silly it would be to have a search function that would only search after button pressing. Then it's just Wikipedia!
          The usefulness of the app comes in the response from key presses. I'm glad I spent the time to realize this flow.
-          </p><br />
+          </p>
     </div>
   );
 }
