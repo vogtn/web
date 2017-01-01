@@ -29465,7 +29465,7 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'What if sharing speicfic pieces of information about and with people was easier? Query.me is an approach to this solution. The Co-founders, Joseph, Mike, and Gentian, were generious enough to hire me as a consultant for this company, and I am enormously thankful for the opportunity. I have been able to learn so much, from react-native development and the intracacies of xcode to the basics of developing as a team. So far most of my work has been provided towards the webpage itself, which is primarily built on react. '
+	      'What if sharing specific pieces of information about and with people was easier? Query.me is an approach to this solution. The Co-founders, Joseph, Mike, and Gentian, were generious enough to hire me as a consultant for this company, and I am enormously thankful for the opportunity. I have been able to learn so much, from react-native development and the intracacies of xcode to the basics of developing as a team. So far most of my work has been provided towards the webpage itself, which is primarily built on react. '
 	    )
 	  );
 	}
