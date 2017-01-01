@@ -31,6 +31,7 @@ function Home() {
       <div className="container">
         <Link to="/web/resume">
           <div id="boxThree" className="box fade-in three">
+            <img src="./img/resume.png"></img>
           </div>
         </Link>
       </div>

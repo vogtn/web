@@ -28990,7 +28990,11 @@
 	      _react2.default.createElement(
 	        _reactRouter.Link,
 	        { to: '/web/resume' },
-	        _react2.default.createElement('div', { id: 'boxThree', className: 'box fade-in three' })
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'boxThree', className: 'box fade-in three' },
+	          _react2.default.createElement('img', { src: './img/resume.png' })
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(
