@@ -23,6 +23,7 @@ function Home() {
       <div className="container">
         <Link to="/web/experience">
           <div id="boxTwo" className="box fade-in two">
+            <img src="./img/experience.png"></img>
           </div>
         </Link>
       </div>

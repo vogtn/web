@@ -28972,7 +28972,11 @@
 	      _react2.default.createElement(
 	        _reactRouter.Link,
 	        { to: '/web/experience' },
-	        _react2.default.createElement('div', { id: 'boxTwo', className: 'box fade-in two' })
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'boxTwo', className: 'box fade-in two' },
+	          _react2.default.createElement('img', { src: './img/experience.png' })
+	        )
 	      )
 	    ),
 	    _react2.default.createElement(
