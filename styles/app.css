@@ -264,4 +264,6 @@ code {
   padding-right: 2rem;
   text-align: center;
   padding-bottom: 4rem;
+  border: none;
+  text-decoration: none;
 }
