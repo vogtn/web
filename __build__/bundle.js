@@ -28765,7 +28765,7 @@
 	      { className: 'contactbox' },
 	      _react2.default.createElement(
 	        'button',
-	        null,
+	        { 'class': 'btn btn-success' },
 	        'Resume'
 	      ),
 	      _react2.default.createElement(
