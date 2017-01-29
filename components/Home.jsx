@@ -36,6 +36,7 @@ function Home() {
         </Link>
       </div>
       <div className="box-description">Resume/Contact</div>
+      <div className="footer">Hello</div>
     </div>
   );
 }
