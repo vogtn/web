@@ -262,4 +262,6 @@ code {
   font-family: monospace;
   font-size: 14px;
   padding-right: 2rem;
+  text-align: center;
+  text-decoration: none;
 }
