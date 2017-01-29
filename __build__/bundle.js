@@ -28761,13 +28761,13 @@
 	    children,
 	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } }),
 	    _react2.default.createElement(
-	      'button',
-	      null,
-	      'Resume'
-	    ),
-	    _react2.default.createElement(
 	      'div',
 	      { className: 'contactbox' },
+	      _react2.default.createElement(
+	        'button',
+	        null,
+	        'Resume'
+	      ),
 	      _react2.default.createElement(
 	        'div',
 	        null,
