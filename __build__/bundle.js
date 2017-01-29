@@ -28768,7 +28768,7 @@
 	        { href: './content/Nic_Vogt_Resume.pdf' },
 	        _react2.default.createElement(
 	          'button',
-	          { 'class': 'btn btn-success' },
+	          { className: 'btn btn-success' },
 	          'Resume'
 	        )
 	      ),
