@@ -12,7 +12,10 @@ function Home() {
       <p>
         Welcome to my website built with react, react-router, explore my projects or social media links!
       </p>
-      <div className="Skills">Skills:
+      <div className="Skills-Desc">Skills:
+        <div className="Skills">
+          Javascript(ES6 & ES5), HTML5, CSS3, jQuery, Reactjs, Angularjs, Bootstrap, Webpack, NPM, Grunt, Gulp, Mocha, Git, Nodejs, Express, Mongodb....
+        </div>
       </div>
       <div className="container">
         <Link to="/web/projects">
