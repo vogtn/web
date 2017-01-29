@@ -253,8 +253,11 @@ code {
   text-align: center;
 }
 .Skills-desc{
-
+  font-family: 'Play', sans-serif;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-top: 20px;
 }
 .Skills{
-  
+
 }
