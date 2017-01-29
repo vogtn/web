@@ -57,7 +57,7 @@ function App({ children, routes }) {
       <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
       </div>
       <div className="contactbox">
-        <button class="btn btn-success">Resume</button>
+        <a href="./content/Nic_Vogt_Resume.pdf"><button class="btn btn-success">Resume</button></a>
         <div>1-425-829-0163</div><FontAwesome
             name='mobile'
             size='2x'
