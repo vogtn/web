@@ -14,7 +14,7 @@ function Home() {
       </p>
       <div className="Skills-Desc">Skills:
         <div className="Skills">
-          Javascript(ES6 & ES5), HTML5, CSS3, jQuery, Reactjs, Angularjs, Bootstrap, Webpack, NPM, Grunt, Gulp, Mocha, Git, Nodejs, Express, Mongodb
+          Javascript(ES6 & ES5), HTML5, CSS3, SCSS, jQuery, Reactjs, Angularjs, Bootstrap, Webpack, NPM, Grunt, Gulp, Mocha, Git, Nodejs, Express, Mongodb
         </div>
       </div>
       <div className="container">

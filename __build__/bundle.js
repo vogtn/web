@@ -28981,7 +28981,7 @@
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'Skills' },
-	        'Javascript(ES6 & ES5), HTML5, CSS3, jQuery, Reactjs, Angularjs, Bootstrap, Webpack, NPM, Grunt, Gulp, Mocha, Git, Nodejs, Express, Mongodb'
+	        'Javascript(ES6 & ES5), HTML5, CSS3, SCSS, jQuery, Reactjs, Angularjs, Bootstrap, Webpack, NPM, Grunt, Gulp, Mocha, Git, Nodejs, Express, Mongodb'
 	      )
 	    ),
 	    _react2.default.createElement(
