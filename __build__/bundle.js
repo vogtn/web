@@ -28976,6 +28976,11 @@
 	    ),
 	    _react2.default.createElement(
 	      'div',
+	      { className: 'Skills' },
+	      'Skills:'
+	    ),
+	    _react2.default.createElement(
+	      'div',
 	      { className: 'container' },
 	      _react2.default.createElement(
 	        _reactRouter.Link,
@@ -29027,11 +29032,6 @@
 	      'div',
 	      { className: 'box-description' },
 	      'Resume/Contact'
-	    ),
-	    _react2.default.createElement(
-	      'div',
-	      { className: 'footer' },
-	      'Hello'
 	    )
 	  );
 	}

@@ -12,6 +12,8 @@ function Home() {
       <p>
         Welcome to my website built with react, react-router, explore my projects or social media links!
       </p>
+      <div className="Skills">Skills:
+      </div>
       <div className="container">
         <Link to="/web/projects">
           <div id="boxOne" className="box fade-in one">
@@ -36,7 +38,6 @@ function Home() {
         </Link>
       </div>
       <div className="box-description">Resume/Contact</div>
-      <div className="footer">Hello</div>
     </div>
   );
 }
