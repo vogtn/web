@@ -28710,7 +28710,8 @@
 	        ariaLabel: 'github',
 	        name: 'github',
 	        size: '4x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	        className: 'icons'
 	      })
 	    ),
 	    _react2.default.createElement(
@@ -28980,8 +28981,7 @@
 	        ariaLabel: 'skills',
 	        name: 'star',
 	        size: '1x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'icons'
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	      }),
 	      'Skills:',
 	      _react2.default.createElement(

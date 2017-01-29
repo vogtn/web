@@ -23,6 +23,7 @@ function App({ children, routes }) {
           name='github'
           size='4x'
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+          className="icons"
         /></a>
       <a href={twitterLink}><FontAwesome
           ariaLabel='twitter'
