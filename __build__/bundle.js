@@ -28764,9 +28764,13 @@
 	      'div',
 	      { className: 'contactbox' },
 	      _react2.default.createElement(
-	        'button',
-	        { 'class': 'btn btn-success' },
-	        'Resume'
+	        'a',
+	        { href: './content/Nic_Vogt_Resume.pdf' },
+	        _react2.default.createElement(
+	          'button',
+	          { 'class': 'btn btn-success' },
+	          'Resume'
+	        )
 	      ),
 	      _react2.default.createElement(
 	        'div',
