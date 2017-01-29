@@ -28710,8 +28710,7 @@
 	        ariaLabel: 'github',
 	        name: 'github',
 	        size: '4x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'icons'
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
 	      })
 	    ),
 	    _react2.default.createElement(
@@ -28977,6 +28976,13 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'Skills-Desc' },
+	      _react2.default.createElement(FontAwesome, {
+	        ariaLabel: 'skills',
+	        name: 'star',
+	        size: '1x',
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	        className: 'icons'
+	      }),
 	      'Skills:',
 	      _react2.default.createElement(
 	        'div',
