@@ -28960,6 +28960,8 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	var FontAwesome = __webpack_require__(/*! react-fontawesome */ 252);
+	
 	function Home() {
 	  var reactLink = 'https://github.com/facebook/react';
 	  var reactRouterLink = 'https://github.com/reactjs/react-router';
