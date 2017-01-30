@@ -29493,7 +29493,7 @@
 	    _react2.default.createElement(
 	      'p',
 	      null,
-	      'After spending much of my career being self-taught, I finally decided upon taking a professional course. I wanted to be able to learn computer science concepts as well as reaffirm my current abilities in a classroom setting. The Web Development Immersive Program is a 12 week bootcamp centered around learning Full Stack web development including: javascript, html, css, angularjs, reactjs, along with backend technologies.'
+	      'After spending much of my career being self-taught, I finally decided upon taking a professional course. I wanted to be able to learn computer science concepts as well as reaffirm my current abilities in a classroom setting. The Web Development Immersive Program is a 12 week bootcamp centered around learning Full Stack web development including: javascript, html, css, angularjs, reactjs, ruby along with backend technologies such as Nodejs, Mongodb.'
 	    ),
 	    _react2.default.createElement(
 	      'div',
