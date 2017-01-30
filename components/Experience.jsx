@@ -18,6 +18,17 @@ function Experience({ children }) {
         </Link>
       </div>
       <div className="container">
+        <a href="https://generalassemb.ly/education/web-development-immersive/seattle">
+          <div id="boxOne" className="boxExperience fade-in two">
+            <img src="./img/generalassembly.png"></img>
+          </div>
+        </a>
+      </div>
+      <div className="box-description">GeneralAssembly Web Development Immersive</div>
+      <p>What if sharing specific pieces of information about and with people was easier? Query.me is an approach to this solution. The Co-founders, Joseph, Mike, and Gentian,
+      were generious enough to hire me as a consultant for this company, and I am enormously thankful for the opportunity. I have been able to learn so much, from react-native development
+      and the intracacies of xcode to the basics of developing as a team. So far most of my work has been provided towards the webpage itself, which is primarily built on react. </p>
+      <div className="container">
         <a href="https://www.queryapp.com/">
           <div id="boxOne" className="boxExperience fade-in two">
             <img src="./img/query.png"></img>
