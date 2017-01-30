@@ -18,6 +18,17 @@ function Experience({ children }) {
         </Link>
       </div>
       <div className="container">
+        <a href="https://www.queryapp.com/">
+          <div id="boxOne" className="boxExperience fade-in two">
+            <img src="./img/query.png"></img>
+          </div>
+        </a>
+      </div>
+      <div className="box-description">Query.me</div>
+      <p>What if sharing specific pieces of information about and with people was easier? Query.me is an approach to this solution. The Co-founders, Joseph, Mike, and Gentian,
+      were generious enough to hire me as a consultant for this company, and I am enormously thankful for the opportunity. I have been able to learn so much, from react-native development
+      and the intracacies of xcode to the basics of developing as a team. So far most of my work has been provided towards the webpage itself, which is primarily built on react. </p>
+      <div className="container">
         <a href="https://www.freecodecamp.com/">
           <div id="boxOne" className="boxExperience fade-in one">
             <img src="./img/freecodecamp.png"></img>
@@ -32,17 +43,6 @@ function Experience({ children }) {
       but then quickly transitions to using objects, jquery, and utlization of API's. This helped me understand the different tools and knowledge necessary for developing web appliations
       in the current paradigm. It also gave me a sense of community and learning to utilize resources to learn on my own. From here I was able to branch out and find different stacks, and how
       people learned and utilized them.</p>
-      <div className="container">
-        <a href="https://www.queryapp.com/">
-          <div id="boxOne" className="boxExperience fade-in two">
-            <img src="./img/query.png"></img>
-          </div>
-        </a>
-      </div>
-      <div className="box-description">Query.me</div>
-      <p>What if sharing specific pieces of information about and with people was easier? Query.me is an approach to this solution. The Co-founders, Joseph, Mike, and Gentian,
-      were generious enough to hire me as a consultant for this company, and I am enormously thankful for the opportunity. I have been able to learn so much, from react-native development
-      and the intracacies of xcode to the basics of developing as a team. So far most of my work has been provided towards the webpage itself, which is primarily built on react. </p>
     </div>
   );
 }
