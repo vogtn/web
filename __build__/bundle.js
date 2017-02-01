@@ -28706,7 +28706,6 @@
 	    _react2.default.createElement(
 	      'a',
 	      { href: githubLink },
-	      'Github',
 	      _react2.default.createElement(FontAwesome, {
 	        ariaLabel: 'github',
 	        name: 'github',
