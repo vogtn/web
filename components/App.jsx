@@ -18,7 +18,7 @@ function App({ children, routes }) {
   return (
     <div>
       <h1>Nicolas Vogt - Web Developer</h1>
-        <a href={githubLink}><FontAwesome
+        <a href={githubLink}>Github<FontAwesome
           ariaLabel='github'
           name='github'
           size='4x'
