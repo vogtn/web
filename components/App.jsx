@@ -17,6 +17,7 @@ function App({ children, routes }) {
 
   return (
     <div>
+      <h1>Nicolas Vogt - Web Developer</h1>
         <a href={githubLink}><FontAwesome
           ariaLabel='github'
           name='github'
@@ -31,7 +32,6 @@ function App({ children, routes }) {
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         /></a>
-        <h1>Nicolas Vogt - Web Developer</h1>
       <a href={codepenLink}><FontAwesome
           ariaLabel='codepen'
           name='codepen'

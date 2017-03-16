@@ -28699,6 +28699,11 @@
 	    'div',
 	    null,
 	    _react2.default.createElement(
+	      'h1',
+	      null,
+	      'Nicolas Vogt - Web Developer'
+	    ),
+	    _react2.default.createElement(
 	      'a',
 	      { href: githubLink },
 	      _react2.default.createElement(FontAwesome, {
@@ -28719,11 +28724,6 @@
 	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
 	        className: 'icons'
 	      })
-	    ),
-	    _react2.default.createElement(
-	      'h1',
-	      null,
-	      'Nicolas Vogt - Web Developer'
 	    ),
 	    _react2.default.createElement(
 	      'a',
