@@ -59,7 +59,7 @@ space for vertical scroll bar without creating horizontal scroll bar
 (if there is padding, the window will scroll horizontally to show the padding) */
 @media (max-width: 540px) {
   #root > div {
-    max-width: calc(100vw - 40px);
+    max-width: calc(100vw - 100px);
   }
 }
 
