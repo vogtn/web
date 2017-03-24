@@ -28697,7 +28697,7 @@
 	
 	  return _react2.default.createElement(
 	    'div',
-	    null,
+	    { className: 'header' },
 	    _react2.default.createElement(
 	      'h1',
 	      null,
@@ -28979,7 +28979,7 @@
 	
 	  return _react2.default.createElement(
 	    'div',
-	    null,
+	    { className: 'non-head' },
 	    _react2.default.createElement(
 	      'p',
 	      null,

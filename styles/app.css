@@ -40,7 +40,6 @@ body {
 
 /*reactroot div*/
 #root > div {
-  min-width: 100vw;
   padding: 3vh 0 12vh 0;
 
   /*center based on vw to prevent content jump when vertical scroll bar show/hide
@@ -53,13 +52,15 @@ body {
   -o-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
-
+.non-head{
+    max-width: 900px;
+}
 /*use responsive max-width to simulate padding/margin to allow
 space for vertical scroll bar without creating horizontal scroll bar
 (if there is padding, the window will scroll horizontally to show the padding) */
 @media (max-width: 540px) {
   #root > div {
-    max-width: calc(100vw - 100px);
+    max-width: calc(100vw - 40px);
   }
 }
 
@@ -302,4 +303,8 @@ code {
 .btn:active {
 	position:relative;
 	top:1px;
+}
+.header{
+  background-color: black;
+  color: white;
 }

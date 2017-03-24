@@ -9,7 +9,7 @@ function Home() {
   const repoReadmeLink = 'https://github.com/rafrex/spa-github-pages#readme';
 
   return (
-    <div>
+    <div className="non-head">
       <p>
         Welcome to my website built with react, react-router, explore my projects or social media links!
       </p>
