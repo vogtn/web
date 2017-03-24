@@ -28979,7 +28979,7 @@
 	
 	  return _react2.default.createElement(
 	    'div',
-	    { className: 'non-head' },
+	    null,
 	    _react2.default.createElement(
 	      'p',
 	      null,
