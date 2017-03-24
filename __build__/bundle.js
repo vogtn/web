@@ -28699,64 +28699,68 @@
 	    'div',
 	    { className: 'header' },
 	    _react2.default.createElement(
-	      'h1',
-	      null,
-	      'Nicolas Vogt - Web Developer'
-	    ),
-	    _react2.default.createElement(
-	      'a',
-	      { href: githubLink },
-	      _react2.default.createElement(FontAwesome, {
-	        ariaLabel: 'github',
-	        name: 'github',
-	        size: '4x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'icons'
-	      })
-	    ),
-	    _react2.default.createElement(
-	      'a',
-	      { href: twitterLink },
-	      _react2.default.createElement(FontAwesome, {
-	        ariaLabel: 'twitter',
-	        name: 'twitter',
-	        size: '4x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'icons'
-	      })
-	    ),
-	    _react2.default.createElement(
-	      'a',
-	      { href: codepenLink },
-	      _react2.default.createElement(FontAwesome, {
-	        ariaLabel: 'codepen',
-	        name: 'codepen',
-	        size: '4x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'icons'
-	      })
-	    ),
-	    _react2.default.createElement(
-	      'a',
-	      { href: mediumLink },
-	      _react2.default.createElement(FontAwesome, {
-	        ariaLabel: 'medium',
-	        name: 'medium',
-	        size: '4x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'icons'
-	      })
-	    ),
-	    _react2.default.createElement(
-	      'a',
-	      { href: linkedLink },
-	      _react2.default.createElement(FontAwesome, {
-	        ariaLabel: 'linkedIn',
-	        name: 'linkedin-square',
-	        size: '4x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
-	        className: 'icons'
-	      })
+	      'div',
+	      { className: 'headerTitle' },
+	      _react2.default.createElement(
+	        'h1',
+	        null,
+	        'Nicolas Vogt - Web Developer'
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { href: githubLink },
+	        _react2.default.createElement(FontAwesome, {
+	          ariaLabel: 'github',
+	          name: 'github',
+	          size: '4x',
+	          style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	          className: 'icons'
+	        })
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { href: twitterLink },
+	        _react2.default.createElement(FontAwesome, {
+	          ariaLabel: 'twitter',
+	          name: 'twitter',
+	          size: '4x',
+	          style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	          className: 'icons'
+	        })
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { href: codepenLink },
+	        _react2.default.createElement(FontAwesome, {
+	          ariaLabel: 'codepen',
+	          name: 'codepen',
+	          size: '4x',
+	          style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	          className: 'icons'
+	        })
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { href: mediumLink },
+	        _react2.default.createElement(FontAwesome, {
+	          ariaLabel: 'medium',
+	          name: 'medium',
+	          size: '4x',
+	          style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	          className: 'icons'
+	        })
+	      ),
+	      _react2.default.createElement(
+	        'a',
+	        { href: linkedLink },
+	        _react2.default.createElement(FontAwesome, {
+	          ariaLabel: 'linkedIn',
+	          name: 'linkedin-square',
+	          size: '4x',
+	          style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' },
+	          className: 'icons'
+	        })
+	      )
 	    ),
 	    children,
 	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } }),
