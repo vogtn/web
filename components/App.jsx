@@ -16,7 +16,7 @@ function App({ children, routes }) {
   const linkedLink = 'https://www.linkedin.com/in/vogtn';
 
   return (
-    <div className="header">
+    <div className="headerTitle">
       <h1>Nicolas Vogt - Web Developer</h1>
         <a href={githubLink}><FontAwesome
           ariaLabel='github'
