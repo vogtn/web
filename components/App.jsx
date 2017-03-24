@@ -19,7 +19,23 @@ function App({ children, routes }) {
     <div className="header">
       <div className="headerTitle">
       <h1>Nicolas Vogt - Web Developer</h1>
-        <a href={githubLink}><FontAwesome
+      </div>
+      {children}
+      <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
+      </div>
+      <div className="contactbox">
+        <a href="./content/Nic_Vogt_Resume.pdf"><button className="btn">Resume</button></a>
+        <div>1-425-829-0163</div><FontAwesome
+            name='mobile'
+            size='2x'
+            style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+          />
+        <div>nicolasjvogt@gmail.com</div><FontAwesome
+              name='envelope-o'
+              size='2x'
+              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+            />
+             <a href={githubLink}><FontAwesome
           ariaLabel='github'
           name='github'
           size='4x'
@@ -54,22 +70,6 @@ function App({ children, routes }) {
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         /></a>
-        </div>
-      {children}
-      <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
-      </div>
-      <div className="contactbox">
-        <a href="./content/Nic_Vogt_Resume.pdf"><button className="btn">Resume</button></a>
-        <div>1-425-829-0163</div><FontAwesome
-            name='mobile'
-            size='2x'
-            style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-          />
-        <div>nicolasjvogt@gmail.com</div><FontAwesome
-              name='envelope-o'
-              size='2x'
-              style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-            />
       </div>
     </div>
   );
