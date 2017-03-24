@@ -28705,7 +28705,42 @@
 	        'h1',
 	        null,
 	        'Nicolas Vogt - Web Developer'
+	      )
+	    ),
+	    children,
+	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } }),
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'contactbox' },
+	      _react2.default.createElement(
+	        'a',
+	        { href: './content/Nic_Vogt_Resume.pdf' },
+	        _react2.default.createElement(
+	          'button',
+	          { className: 'btn' },
+	          'Resume'
+	        )
 	      ),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        '1-425-829-0163'
+	      ),
+	      _react2.default.createElement(FontAwesome, {
+	        name: 'mobile',
+	        size: '2x',
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	      }),
+	      _react2.default.createElement(
+	        'div',
+	        null,
+	        'nicolasjvogt@gmail.com'
+	      ),
+	      _react2.default.createElement(FontAwesome, {
+	        name: 'envelope-o',
+	        size: '2x',
+	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
+	      }),
 	      _react2.default.createElement(
 	        'a',
 	        { href: githubLink },
@@ -28761,41 +28796,6 @@
 	          className: 'icons'
 	        })
 	      )
-	    ),
-	    children,
-	    _react2.default.createElement('div', { style: { color: '#A0A0A0', fontSize: '14px', marginTop: '50px' } }),
-	    _react2.default.createElement(
-	      'div',
-	      { className: 'contactbox' },
-	      _react2.default.createElement(
-	        'a',
-	        { href: './content/Nic_Vogt_Resume.pdf' },
-	        _react2.default.createElement(
-	          'button',
-	          { className: 'btn' },
-	          'Resume'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        '1-425-829-0163'
-	      ),
-	      _react2.default.createElement(FontAwesome, {
-	        name: 'mobile',
-	        size: '2x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
-	      }),
-	      _react2.default.createElement(
-	        'div',
-	        null,
-	        'nicolasjvogt@gmail.com'
-	      ),
-	      _react2.default.createElement(FontAwesome, {
-	        name: 'envelope-o',
-	        size: '2x',
-	        style: { textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }
-	      })
 	    )
 	  );
 	}
