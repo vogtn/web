@@ -16,7 +16,8 @@ function App({ children, routes }) {
   const linkedLink = 'https://www.linkedin.com/in/vogtn';
 
   return (
-    <div className="headerTitle">
+    <div className="header">
+      <div className="headerTitle">
       <h1>Nicolas Vogt - Web Developer</h1>
         <a href={githubLink}><FontAwesome
           ariaLabel='github'
@@ -53,6 +54,7 @@ function App({ children, routes }) {
           style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
           className="icons"
         /></a>
+        </div>
       {children}
       <div style={{ color: '#A0A0A0', fontSize: '14px', marginTop: '50px' }}>
       </div>
